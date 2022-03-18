@@ -1,0 +1,29 @@
+body{
+    background-color: #333;
+}
+#parent-grid{
+    width: 1080px;
+    height: 1080px;
+}
+#main-grid{
+
+    width: 1080px;
+    height: 1080px;
+    max-width: 1080px;
+    max-height: 1080px;
+    background-color: salmon;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#main-grid>div{
+    background-color: yellow;
+    margin: 1px;
+
+    min-width: 20px;
+    min-height: 20px;
+
+    justify-content: center;
+}
